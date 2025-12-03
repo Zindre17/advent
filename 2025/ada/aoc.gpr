@@ -1,0 +1,7 @@
+
+project AoC is
+  for Source_Dirs use ("./");
+  for Object_Dir use "build";
+  for Languages use ("Ada");
+  for Main use ("day_1.adb");
+end AoC;
