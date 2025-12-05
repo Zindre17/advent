@@ -6,6 +6,7 @@ project AoC is
   for Main use (
     "day_1.adb",
     "day_2.adb",
-    "day_3.adb"
+    "day_3.adb",
+    "day_4.adb"
   );
 end AoC;
