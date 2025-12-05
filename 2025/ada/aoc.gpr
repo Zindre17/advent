@@ -5,6 +5,7 @@ project AoC is
   for Languages use ("Ada");
   for Main use (
     "day_1.adb",
-    "day_2.adb"
+    "day_2.adb",
+    "day_3.adb"
   );
 end AoC;
