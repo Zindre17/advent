@@ -7,6 +7,8 @@ project AoC is
     "day_1.adb",
     "day_2.adb",
     "day_3.adb",
-    "day_4.adb"
+    "day_4.adb",
+    "day_5.adb",
+    "day_6.adb"
   );
 end AoC;
