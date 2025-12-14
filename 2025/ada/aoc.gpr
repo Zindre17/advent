@@ -12,6 +12,9 @@ project AoC is
     "day_6.adb",
     "day_7.adb",
     "day_8.adb",
-    "day_9.adb"
+    "day_9.adb",
+    "day_10.adb",
+    "day_11.adb",
+    "day_12.adb"
   );
 end AoC;
