@@ -48,3 +48,7 @@ size_t list_count(list_t *list) {
     return list->count;
 }
 
+void *list_get_at(list_t *list, size_t index) {
+    return list->entries[index];
+}
+
