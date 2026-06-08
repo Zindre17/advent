@@ -5,11 +5,11 @@
 
 typedef struct list_t list_t;
 
-list_t* list_create();
-void list_destroy(list_t** list);
+list_t *list_create();
+void list_destroy(list_t **list);
 
-size_t list_count(list_t* list);
-void* list_items(list_t* list);
-void list_add(list_t* list, void* item);
+size_t list_count(list_t *list);
+void *ist_items(list_t *list);
+void list_add(list_t *list, void *item);
 
 #endif

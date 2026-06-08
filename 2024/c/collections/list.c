@@ -10,7 +10,7 @@ typedef struct list_t {
 
 const size_t default_capacity = 1 << 4;
 
-list_t* list_create() {
+list_t *list_create() {
     list_t *list = malloc(sizeof(list_t));
     list->count = 0;
     list->capacity = default_capacity;
@@ -25,7 +25,7 @@ void list_destroy(list_t **list) {
     *list = NULL;
 }
 
-void* list_items(list_t *list) {
+void *list_items(list_t *list) {
     return list->entries;
 }
 
